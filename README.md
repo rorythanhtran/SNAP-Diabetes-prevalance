@@ -8,23 +8,20 @@ we organnized our files and outputs based on their function in the data pipeline
 ├── README.md
 ├── main_script.py                                    # Main python script for all steps 
 |
-├── Data Processing/
-│   ├── data_raw                                      
-│   └── data_cleaned              
+├── Data processing/
+│   ├── data_raw                                      #Raw data we find in the wild
+│   └── data_cleaned                                  #Tidy data after cleaning 
 |
 ├── Data merging
 |
 |
-├── Data merging
+├── Data analysis                                     #Data analysis for research questions
 |
 |
-├── Data EDA
+├── Data visualization                                #Figures 
 |
 |
-├── Results_correlation
-|
-|
-└── Results_visualizations/
+├── Project deliverables                              #Report & presentation for reflection 
 
 ## Requirements
 The analysis require the following librraies: 
