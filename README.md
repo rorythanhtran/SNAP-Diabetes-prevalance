@@ -19,13 +19,18 @@ We organnized our files and outputs based on their function in the data pipeline
 │   └── data_cleaned                      #Tidy data after cleaning 
 |
 ├── data analysis                         #Data analysis for research questions
-|
-|
+│   ├── descriptive_analysis.ipynb          #(And its derivatives)              
+│   └── explanatory_analysis.ipynb          #(And its derivatives) 
+|   └── predictive_analysis.ipynb           #(And its derivatives)
+|         
 ├── data viz                              #Figures from our analysis
-|
-|
-├── project deliverables                 #Report & presentation 
-
+│   ├── descriptive_analysis                      
+│   └── explanatory_analysis          
+|   └── predictive_analysis           
+├
+── project deliverables                 #Report & presentation 
+│   ├── DS1_Final_Project_Slides.PDF                          
+│   └── DS1_Final_Project_Report.PDF
 ```
 ## Notes 
 This project was completed for academic purposes. All data sources are publicly available. 
