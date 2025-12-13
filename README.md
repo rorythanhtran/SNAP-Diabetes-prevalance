@@ -1,6 +1,13 @@
-# SNAP-Diabetes-prevalance
-## Overview
-This is the repository for Data Science I's project. We want to analyze the correlation between long-term, structural food insecurity metrics and the diabetes prevalance across U.S counties. 
+# Food Insecurity as a Predictor of Diabetes and Obesity: An Ecological Analysis of U.S. Counties
+## Authors
+Thanh Tran
+Julia Esposito
+
+Data Science I – Final Project
+December 2025
+
+## Project overview 
+This project examines the relationship between food insecurity and chronic health outcomes, specially diabetes and obesity at he county level in the United States. The analysis combines descriptive, explanatory, and predictive components to understand both association and predictive power of food insecurity indicators. 
 ## Repository structure 
 We organnized our files and outputs based on their function in the data pipeline: 
 ```bash
@@ -8,26 +15,17 @@ We organnized our files and outputs based on their function in the data pipeline
 ├── README.md
 |
 ├── Data processing/
-│   ├── data_raw                                      #Raw data we find in the wild
-│   └── data_cleaned                                  #Tidy data after cleaning 
+│   ├── data_raw                          #Raw data we find in the wild
+│   └── data_cleaned                      #Tidy data after cleaning 
 |
-├── Data merging
-|
-|
-├── Data analysis                                     #Data analysis for research questions
+├── data analysis                         #Data analysis for research questions
 |
 |
-├── data viz                                          #Figures 
+├── data viz                              #Figures from our analysis
 |
 |
-├── Project deliverables                              #Report & presentation for reflection 
+├── project deliverables                 #Report & presentation 
 
-## Requirements
-The analysis require the following librraies: 
-- `pandas`
-
-- `numpy`
-
-- `matplotlib`
-
-- `seaborn`
+```
+## Notes 
+This project was completed for academic purposes. All data sources are publicly available. 
